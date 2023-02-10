@@ -1,6 +1,6 @@
 node { 
     stage ('git') {
-     git 'https://github.com/daticahealth/java-tomcat-maven-example.git'   
+     git 'https://github.com/EnggAdda/JenkinsJobApplication.git'   
     }
     stage ('maven') {
         sh 'mvn package'
